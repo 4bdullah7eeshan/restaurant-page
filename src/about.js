@@ -1,8 +1,8 @@
-const loadHomePage = () => {
+const loadAboutPage = () => {
     const content = document.querySelector("#content");
 
     const headline = document.createElement("h2");
-    headline.textContent = "Headline";
+    headline.textContent = "About";
 
     const image = document.createElement("img");
     image.src = "https://cdn.pixabay.com/photo/2016/11/18/22/21/restaurant-1837150_1280.jpg";
@@ -17,6 +17,6 @@ const loadHomePage = () => {
 
 };
 
-export { loadHomePage };
+export { loadAboutPage };
 
 
