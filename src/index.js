@@ -1,4 +1,4 @@
 import "./styles.css";
-import "./homepage.js";
+import { pageLoad } from "./homepage.js";
 
-console.log("hello");
+pageLoad();
