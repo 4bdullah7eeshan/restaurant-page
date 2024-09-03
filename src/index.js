@@ -1,3 +1,4 @@
+import "./resets.css"
 import "./styles.css";
 import { loadHomePage } from "./homepage.js";
 import { loadMenuPage } from "./menu.js";
@@ -7,7 +8,6 @@ const home = document.querySelector("#home");
 const menu = document.querySelector("#menu");
 const about = document.querySelector("#about");
 const content = document.querySelector("#content");
-
 
 home.addEventListener('click', () => {
     content.innerHTML = '';

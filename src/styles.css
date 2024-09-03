@@ -1,0 +1,125 @@
+/* style.css
+   For core CSS styling.
+   NOTE: Check "./resets.css" before proceeding.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap');
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+}
+
+#logo {
+    font-family: 'Meddon', cursive;
+}
+
+* {
+    font-family: 'Arsenal', sans-serif;    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+}
+
+button {
+    width: 5rem;
+    height: auto;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    font-family: 'Quintessential', cursive;
+    border: black;
+    cursor: pointer;
+    font-size: 1.1rem;
+    
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    outline: 1px solid black;
+}
+
+img {
+    width: 20vw;
+    height: auto;
+}
+
+#our-story-section,
+#founder-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: justify;
+    gap: 5rem;
+}
+
+#our-story-text-content,
+#founder-text-content {
+    align-self: center;
+    flex-direction: column;
+}
+
+#menu-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+}
+
+#menu-section div {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    outline: 1px solid black;
+}
+
+#menu-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
